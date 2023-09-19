@@ -1,0 +1,127 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: auto;
+}
+
+#nav {
+    background: #000000;
+    color: white;
+    list-style-type: none;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#nav a:hover {
+    color: #504f4f;
+}
+
+#nav a.router-link-exact-active {
+    color: white;
+    background: #268572;
+}
+
+.header {
+    text-align:center;
+    position: relative;
+    font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: #424040;
+    
+  }
+
+IMG.displayed {
+    float: left;
+}
+
+#content {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: auto;
+    padding-right: auto;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8;
+}
+
+.form {
+    text-align:center; 
+    padding-left: auto;
+    padding-right: auto;
+    position: relative;
+    bottom: -50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 480px) {
+    IMG.displayed {
+        width: 0px;
+        height: 0px;
+    }
+  
+    .form {
+        padding: 0px 0px 100px;
+    }    
+}
+
+@media only screen and (min-width: 768px) {
+      IMG.displayed {
+        width: 0px;
+        height: 0px;
+    }
+
+    .form {
+        padding: 0px 0px 100px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    IMG.displayed {
+      width: 116px;
+      height: 40px;
+  }
+
+  .form {
+      padding: 0px 0px 100px;
+  }
+}
+

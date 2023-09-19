@@ -1,0 +1,56 @@
+.intro-container {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: auto;
+    padding-right: auto;
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+}
+.aboutText {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin:0;
+  }
+
+.table {
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+table, th, td {
+    border:1px white;
+  }
+
+.btn { 
+    display: inline-block;
+    background: #268572;
+    color: white;
+    padding: 30px 100px;
+    text-decoration: 75px solid;
+}
+
+.btn:hover {
+    background: #504f4f;
+    color: white;
+}
+
+.btn:glow {
+
+    background: #504f4f;
+    color: white;
+
+
+}
+
+.video-container {
+
+
+
+}
